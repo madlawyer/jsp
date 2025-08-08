@@ -14,10 +14,10 @@ public class ELtest extends HttpServlet {
 
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html; setChar=utf-8");
+		response.setContentType("text/html; Charset=utf-8");
 		request.setCharacterEncoding("utf-8");
 		
-		String name2 = request.getParameter("name2")==null ? "" : request.getParameter("nam2");
+		String name2 = request.getParameter("name2")==null ? "" : request.getParameter("name2");
 		String job = request.getParameter("job")==null ? "" : request.getParameter("job");
 		
 		request.setAttribute("name2", name2);
