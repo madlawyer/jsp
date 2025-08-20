@@ -19,3 +19,7 @@ drop table friend;
 insert into friend values (default, 'admin', '1234','관리맨', '관리자', 33, '남자', '서울');
 
 select * from friend;
+
+update friend set pwd = '7703375835' where idx = 1;
+update friend set pwd = '7703375835' where idx = 2;
+update friend set pwd = '7703375835' where idx = 3;

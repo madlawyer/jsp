@@ -64,7 +64,4 @@ public class LoginVO {
 		return "LoginVO [idx=" + idx + ", mid=" + mid + ", pwd=" + pwd + ", nickName=" + nickName + ", name=" + name
 				+ ", age=" + age + ", gender=" + gender + ", address=" + address + "]";
 	}
-	
-	
-	
 }
