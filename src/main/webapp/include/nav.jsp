@@ -30,6 +30,9 @@
 				  </ul>
 				</div>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="${ctp}/study2/login/Login">Login</a>
+      </li>
     </ul>
   </div>
 </nav>
