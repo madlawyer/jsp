@@ -23,6 +23,8 @@ public class GuestController extends HttpServlet {
 		String com = request.getRequestURI();
 		com = com.substring(com.lastIndexOf("/")+1, com.lastIndexOf("."));
 		
+		
+		
 		if(com.equals("GuestList")) {
 			command = new GuestListCommand();
 			command.execute(request, response);
