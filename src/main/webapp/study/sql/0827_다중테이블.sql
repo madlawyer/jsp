@@ -184,7 +184,7 @@ select (select bookname from books where bookid=orders.bookid)
 	where o.bookid in (select bookid from books where publisher='대한미디어' or publisher='삼성당'))
 	
 -- 1. '손흥민'이 구매한 도서의 이름, 정가, 구매가격, 할인받은금액(정가와 판매가격의 차)를 출력하시오.
-
+	where 
 -- 2. 고객별로 주문한 도서의 총수량과 총판매액을 구하시오. 이때 고객 아이디도 함께 출력하시오.
 
 -- 3. 고객의 이름과 고객별 구매액 합계를 출력하시오.

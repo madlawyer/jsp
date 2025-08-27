@@ -18,7 +18,6 @@ public class AdminOutCommand implements CommonInterface {
 		
 		request.setAttribute("message", "관리자님 로그아웃 되었습니다.");
 		request.setAttribute("url", "GuestList.gu");
-
 	}
 
 }

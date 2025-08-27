@@ -105,7 +105,7 @@ public class GuestDAO {
 		return res;
 	}
 
-	//총 레코드 건수 구하기
+	// 총 레코드 건수 구하기
 	public int getTotRecCnt() {
 		int totRecCnt = 0;
 		try {
@@ -116,7 +116,7 @@ public class GuestDAO {
 			rs.next();
 			totRecCnt = rs.getInt("cnt");
 		} catch (SQLException e) {
-			System.out.println("sql오류(setGuestDelete) : " + e.getMessage());
+			System.out.println("sql오류(getTotRecCnt) : " + e.getMessage());
 		}
 		finally {
 			rsClose();
