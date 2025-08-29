@@ -7,7 +7,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
 import common.CommonInterface;
 
 public class FileListCommand implements CommonInterface {
@@ -21,9 +20,8 @@ public class FileListCommand implements CommonInterface {
 		for(String file : files) {
 			System.out.println("file : " + file);
 		}
-
-		request.setAttribute("files", files);
 		
+		request.setAttribute("files", files);
 	}
 
 }
